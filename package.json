@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-raniesantos",
+  "version": "1.0.0",
+  "description": "Personal ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raniesantos/eslint-config-raniesantos.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Ranie Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raniesantos/eslint-config-raniesantos/issues"
+  },
+  "homepage": "https://github.com/raniesantos/eslint-config-raniesantos#readme"
+}
