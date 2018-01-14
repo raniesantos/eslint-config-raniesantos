@@ -5,13 +5,17 @@
 
 My personal ESLint configuration.
 
+This config extends [eslint-config-standard](https://github.com/standard/eslint-config-standard) and [eslint-plugin-vue Strongly Recommended](https://github.com/vuejs/eslint-plugin-vue#priority-b-strongly-recommended-improving-readability) with a few opinionated overrides.
+
 ___
 ## Install
 
-Install this package as a devDependency:
-
 ```bash
+# Install this package as a devDependency
 $ npm install --save-dev eslint-config-raniesantos
+
+# Then install the peer dependencies
+$ npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue
 ```
 
 Then have your project's `.eslintrc` file extend the ruleset.

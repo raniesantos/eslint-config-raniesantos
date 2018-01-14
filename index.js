@@ -15,7 +15,7 @@ module.exports = {
         // Require 4 spaces for indents
         'indent': ['error', 4],
 
-        // Require parentheses around arrow function arguments
+        // Require parentheses in arrow function arguments
         'arrow-parens': ['error', 'always'],
 
         // Require spacing inside of braces
