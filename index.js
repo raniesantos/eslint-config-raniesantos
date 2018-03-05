@@ -3,6 +3,10 @@ module.exports = {
         browser: true
     },
 
+    parserOptions: {
+        ecmaVersion: 2017
+    },
+
     extends: [
         'standard',
         'plugin:vue/strongly-recommended'
