@@ -15,7 +15,7 @@ ___
 $ npm install --save-dev eslint-config-raniesantos
 
 # Then install the peer dependencies
-$ npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+$ npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue
 ```
 
 Then have your project's `.eslintrc` file extend the ruleset.
