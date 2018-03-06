@@ -1,10 +1,14 @@
 module.exports = {
     env: {
-        browser: true
+        browser: true,
+        es6: true,
+        node: true
     },
 
     parserOptions: {
-        ecmaVersion: 2017
+        parser: 'babel-eslint',
+        ecmaVersion: 2017,
+        sourceType: 'module'
     },
 
     extends: [
@@ -29,4 +33,4 @@ module.exports = {
         'vue/html-indent': ['error', 4, { 'alignAttributesVertically': false }],
         'vue/max-attributes-per-line': ['off']
     }
-}
+};
