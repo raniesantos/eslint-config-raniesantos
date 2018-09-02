@@ -31,6 +31,7 @@ module.exports = {
 
         // Overrides for eslint-plugin-vue
         'vue/html-indent': ['error', 4, { 'alignAttributesVertically': false }],
-        'vue/max-attributes-per-line': ['off']
+        'vue/max-attributes-per-line': ['off'],
+        'vue/name-property-casing': ['error', 'kebab-case']
     }
 };
